@@ -1,0 +1,61 @@
+.footer {
+    background-color: rgb(23, 23, 23);
+    color: #fff;
+    padding: 30px;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+  }
+
+  .heading{
+      margin-bottom: 15px;
+      /* font-weight: 100; */
+  }
+  .heading h2{
+    font-weight: 500;
+    font-size: 2rem;
+  }
+  .contact h4{
+      font-weight: 500;
+      font-size: 1rem;
+  }
+    .mail {
+      margin-bottom: 5px;
+  }
+  .phone{
+    margin-bottom: 5px;
+  }
+  .home-lacation{
+      margin-bottom: 5px;
+  }
+
+
+.connect-logo{
+    margin-bottom: 8px;
+}
+  
+
+@media screen and (max-width:640px) {
+    .container{
+        flex-direction: column;
+        padding: 0 30px 20px 30px;
+    }
+    .logo-grp{
+        display: flex;
+        flex-direction:row;
+        /* justify-content: space-between; */
+    }
+    .connect-logo{
+        margin-right: 15px;
+    }
+    .contact{
+        margin-bottom: 30px;
+    }
+}

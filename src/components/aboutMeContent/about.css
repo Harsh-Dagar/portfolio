@@ -1,0 +1,56 @@
+.abt-me-skill-container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-me-container{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.about-me-heading{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+
+}
+
+.about-me{
+    color:white;
+    font-size: 1.1rem;
+}
+
+.my-skill-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.my-skills-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.skill-feild{
+    margin:50px;
+}
+.skill-feild h4{
+    color:white;
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+    margin-left: 13px;
+}
+.skill-logo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+@media screen and (max-width:640px) {
+    .my-skills-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
